@@ -2,9 +2,11 @@
 
 Группа 2018-04
 
-### Преподаватель
+### Преподаватели
 Vitaly Chibrikov (Виталий Чибриков)
 
 chibrikov@otus.ru
+
+Vladimir Sonkin (Владимир Сонькин)
 
 
