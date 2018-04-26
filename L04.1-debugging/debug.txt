@@ -1,0 +1,1 @@
+java -cp out/production/Debugging -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 Main

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+PreMain-Class: Agent007
+Class-Path: .
+Main-Class: AgentTest
+
