@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Cycle
+Build-Jdk: 1.7.0_25
+premain-class: com.javapapers.java.instrumentation.DurationAgent
+Created-By: javapapers
+
