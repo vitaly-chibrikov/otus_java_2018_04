@@ -1,0 +1,16 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="timeService" class="ru.otus.servlet.TimeService">
+        <constructor-arg name="pattern" value="HH:mm:ss"/>
+    </bean>
+
+    <bean id="myEhCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+        <property name="configLocation" value="classpath:ehcache.xml"/>
+    </bean>
+
+    <bean id="templateProcessor" class="ru.otus.servlet.TemplateProcessor"/>
+
+</beans>
